@@ -1,4 +1,4 @@
-# Vagrant Commands
+# Vagrant Notes & Commands
 
 ```bash
 # start a new vagrantfile and use precise64 box
@@ -37,7 +37,7 @@ vagrant box remove
 # reload the VM and run provisioners (shell, etc)
 vagrant reload --provision
 
-# reload the VM (without running provisioners). 
+# reload the VM (without running provisioners).
 # use when editing vagrantfile and just restarting
 vagrant reload
 
